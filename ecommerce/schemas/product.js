@@ -9,6 +9,7 @@ export default {
         type: 'array',
         of: [{ type: 'image' }],
         options: {
+          //Enables the user interface for selecting what areas of an image should always be cropped, what areas should never be cropped, and the center of the area to crop around when resizing.
           hotspot: true,
         }
       },
@@ -18,6 +19,7 @@ export default {
         type: 'string',
       },
       { 
+        //custom type for unique identifiers
         name: 'slug',
         title: 'Slug',
         type: 'slug',
